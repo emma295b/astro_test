@@ -1,4 +1,7 @@
 ---
+import "../stylesheet/style.css"; 
+import Card from "../components/Card.astro";
+import Navigation from "../components/Navigation.astro";
 ---
 
 <html lang="en">
@@ -10,6 +13,15 @@
 		<title>Astro</title>
 	</head>
 	<body>
+		<Navigation/>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum optio nemo perferendis atque ullam doloribus soluta quis unde error odit dolore fugit esse alias consequuntur rem consequatur, cum possimus quas.</p>
 		<h1>Astro</h1>
+		<link rel="stylesheet" href="style.css"/>
+		<main>
+			<Card header="hej verden">
+				<img src="/meme1.webp" alt="et meme"/>
+			</Card>
+			
+		</main>
 	</body>
 </html>
